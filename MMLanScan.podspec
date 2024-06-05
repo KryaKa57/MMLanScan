@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.author           = { 'Michael Mavris' => 'info@miksoft.net' }
   s.source           = { :git => 'https://github.com/mavris/MMLanScan.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.0'
   s.source_files = 'MMLanScan/**/*.{h,m}'
   s.resources        = 'MMLanScan/Data/data.plist'
 end
